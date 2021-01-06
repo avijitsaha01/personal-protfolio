@@ -1,11 +1,14 @@
 /* add google font */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;500;700;900&display=swap');
+
+/* font-family: 'Bebas Neue', cursive;
+font-family: 'Roboto', sans-serif; */
 
 /* initialize body tag */
 body{
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* styling nav-menu */
@@ -50,8 +53,9 @@ body{
     float: left;
 }
 .half_width h1{
-    font-size: 45px;
+    font-size: 60px;
     padding: 0;
+    font-family: 'Bebas Neue', cursive;
 }
 .half_width p{
     font-size: 18px;
@@ -83,7 +87,8 @@ body{
     padding: 50px;
 }
 .heading h1{
-    font-size: 35px;
+    font-size: 60px;
+    font-family: 'Bebas Neue', cursive;
 }
 .project{
     width: 25%;
@@ -111,12 +116,14 @@ body{
 }
 .contact h1{
     padding-top: 25px;
-    font-size: 40px;
-    font-weight: 600;
+    font-size: 60px;
+    font-weight: 500;
     color: crimson;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
 }
 .input_list input{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
     height: 30px;
     width: 40%;
     padding: 10px;
@@ -130,7 +137,7 @@ body{
     box-shadow: 3px 2px 11px -2px #a8a8a8;
 }
 .input_list textarea{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
     width: 40%;
     padding: 10px;
     font-size: 18px;
@@ -159,6 +166,8 @@ body{
     width: 70%;
     margin: 0 auto;
     position: relative;
+    font-family: 'Roboto', sans-serif;
+
 }
 .work_inquiry img{
     width: 100%;
@@ -194,7 +203,10 @@ body{
 }
 #social h3{
     color: #696871;
-    font-size: 25px;
+    font-size: 45px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+    font-weight: 400;
 }
 #social h2{
     color: #363958;
