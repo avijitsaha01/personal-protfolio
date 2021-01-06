@@ -115,7 +115,7 @@ body{
     outline: none;
     border: none;
     color: #363958;
-    box-shadow: 3px -4px 11px -2px #a8a8a8;
+    box-shadow: 3px 2px 11px -2px #a8a8a8;
 }
 .input_list textarea{
     font-family: 'Poppins', sans-serif;
