@@ -130,6 +130,7 @@ body{
     box-shadow: 10px 10px 40px #a8a8a8;
 }
 #button{
+    margin-top: 15px;
     background-color: crimson;
     padding: 15px 35px;
     color: white;
@@ -138,4 +139,61 @@ body{
     position: absolute;
     margin-top: 5px;
     margin-left:-51px;
+}
+.work_inquiry{
+    width: 70%;
+    margin: 0 auto;
+    position: relative;
+}
+.work_inquiry img{
+    width: 100%;
+    
+}
+#live_chat_text{
+    position: absolute;
+    top: 20%;
+    left: 90px;
+    color: #ffffff;
+    font-size: 30px;
+}
+#live_chat_button{
+    position: absolute;
+    top: 38%;
+    right: 225px;
+}
+#live_chat_button a{
+    background-color: orange;
+    width: 100px;
+    text-align: center;
+    padding: 15px 35px;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    position: absolute;
+}
+#social{
+    margin-top: 80px;
+    text-align: center;
+}
+#social h3{
+    color: #696871;
+    font-size: 25px;
+}
+#social h2{
+    color: #363958;
+    font-size: 32px;
+}
+.icon{
+    display: inline;
+}
+.icon img{
+    width: 40px;
+    padding-right: 20px;
+}
+footer{
+    margin-top: 20px;
+    text-align: center;
+    font-weight: 500;
+    background-color: #dddddd;
+    padding: 10px 0;
 }
